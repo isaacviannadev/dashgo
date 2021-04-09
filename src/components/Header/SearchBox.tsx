@@ -1,5 +1,5 @@
 import { Flex, Input, Icon } from '@chakra-ui/react';
-import React from 'react';
+import React, { useRef } from 'react';
 import { FiSearch } from 'react-icons/fi';
 
 export default function SearchBox() {
